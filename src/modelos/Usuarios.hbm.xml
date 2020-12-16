@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 11-dic-2020 20:25:07 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="modelos.Usuarios" table="USUARIOS">
+        <id name="correo" type="java.lang.String">
+            <column name="CORREO" />
+            <generator class="assigned" />
+        </id>
+        <property name="nombre" type="java.lang.String">
+            <column name="NOMBRE" />
+        </property>
+        <property name="contrasena" type="java.lang.String">
+            <column name="CONTRASENA" />
+        </property>
+        <property name="primApe" type="java.lang.String">
+            <column name="PRIMAPE" />
+        </property>
+        <property name="segApe" type="java.lang.String">
+            <column name="SEGAPE" />
+        </property>
+        <property name="DNI" type="java.lang.String">
+            <column name="DNI" />
+        </property>
+        <property name="fecha" type="java.lang.String">
+            <column name="FECHA" />
+        </property>
+    </class>
+</hibernate-mapping>

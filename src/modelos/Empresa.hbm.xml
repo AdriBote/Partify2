@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 11-dic-2020 20:25:07 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="modelos.Empresa" table="EMPRESA">
+        <id name="nombre" type="java.lang.String">
+            <column name="NOMBRE" />
+            <generator class="assigned" />
+        </id>
+        <property name="NIF" type="java.lang.String">
+            <column name="NIF" />
+        </property>
+        <property name="provincia" type="java.lang.String">
+            <column name="PROVINCIA" />
+        </property>
+        <property name="municipio" type="java.lang.String">
+            <column name="MUNICIPIO" />
+        </property>
+        <property name="cp" type="int">
+            <column name="CP" />
+        </property>
+        <property name="calle" type="java.lang.String">
+            <column name="CALLE" />
+        </property>
+        <property name="email" type="java.lang.String">
+            <column name="EMAIL" />
+        </property>
+        <property name="imagen" type="java.lang.String">
+            <column name="IMAGEN" />
+        </property>
+    </class>
+</hibernate-mapping>
