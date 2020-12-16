@@ -1,0 +1,65 @@
+<div class="container-fluid">
+    <div class="prin">
+        <div class="sec">
+            <div class="row">
+                <h3>CREAR CUENTA PARA LA EMPRESA</h3>
+            </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="nombre">NOMBRE DEL LOCAL</label>
+                            <input type="text" class="form-control" id="nombre" formControlName="nombre" placeholder="Nombre de la empresa">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="nif">NIF / CIF</label>
+                            <input type="text" class="form-control" id="nif" formControlName="nif" placeholder="Nif o Cif">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="provincia">PROVINCIA</label>
+                            <input type="text" class="form-control" id="provincia" formControlName="provincia" placeholder="Provincia">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="municipio">MUNICIPIO</label>
+                            <input type="text" class="form-control" id="municipio" formControlName="municipio" placeholder="Municipio">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="calle">DIRECCIÓN</label>
+                            <input type="text" class="form-control" id="direccion" formControlName="calle" placeholder="Dirección">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="cp">CÓDIGO POSTAL</label>
+                            <input type="text" class="form-control" id="cp" formControlName="cp" placeholder="Codigo postal">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="email">CORREO ELECTRÓNICO</label>
+                            <input type="text" class="form-control cor" id="email" formControlName="email" placeholder="email empresa">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <p>Desea aceptar los <a href="https://www.termsfeed.com/live/9e03f39f-b965-489f-ac19-db2382011ef2">términos y servicios</a>. Recibiras un correo cuando confirmemos su empresa</p><input type="checkbox" name="politica" id="politica">      
+                </div>
+                <div class="row">
+                    <button type="btn" (click)="anadirEmpre()" id="entrar"><span>Añadir cuenta</span></button>
+                </div>
+        </div>
+    </div>
+</div>

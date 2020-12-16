@@ -1,0 +1,23 @@
+<div class="container-fluid">
+    <div class="prin">
+       <div class="row">
+           <div class="col-5">
+              <img src="../../../assets/imagenes/{{empresa.imagen}}" width="400" height="210">
+           </div>
+           <div class="col-5 datos">
+                <h2>{{empresa.nombre}}</h2>
+                <p>Provincia: {{empresa.provincia}}</p>
+                <p>Localidad: {{empresa.municipio}}</p>
+                <p>Calle: {{empresa.calle}}</p>
+                <div class="row">
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;Puedes contactar con el local aqui: </p><a href="mailto:{{empresa.email}}"><img class="gm" src="../../../assets/imagenes/gmail.png"/></a>
+                </div>
+           </div>
+       </div>
+       <div class="row">
+        <div class="col-5 map" >
+            <img [src]='URL()'/>            
+        </div>
+       </div>
+    </div>
+</div>

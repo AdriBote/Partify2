@@ -1,0 +1,10 @@
+.prin{
+    position: absolute;
+    width: 93.4%;
+    background: linear-gradient(black, #4450af);
+}
+h2{
+    text-align: center;
+    color: orange;
+    margin-bottom: 2%;
+}

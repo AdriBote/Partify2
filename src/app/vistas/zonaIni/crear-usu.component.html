@@ -1,0 +1,70 @@
+<div class="container-fluid">
+    <div class="prin">
+        <div class="sec">
+            <div class="row">
+                <h3>CREAR CUENTA DE USUARIO</h3>
+            </div>
+            <div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="email">CORREO ELECTRÓNICO</label>
+                            <input type="text" class="form-control" id="email" name="email" placeholder="Direccion de email">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="contra">CONTRASEÑA </label>
+                            <input type="password" class="form-control" autocomplete="on" id="contra" name="contra" placeholder="Contraseña">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                   <div class="col">
+                       <div class="form-group">
+                           <label for="nombre">NOMBRE</label>
+                           <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre">
+                       </div>
+                   </div>
+                   <div class="col">
+                       <div class="form-group">
+                           <label for="dni">DNI</label>
+                           <input type="text" class="form-control" id="dni" name="dni" placeholder="DNI">
+                       </div>
+                   </div>
+                </div>
+                <div class="row">
+                   <div class="col">
+                        <div class="form-group">
+                            <label for="primApe">PRIMER APELLIDO</label>
+                            <input type="text" class="form-control" id="primApe" name="primApe" placeholder="Primer apellido">
+                        </div>
+                   </div>
+                   <div class="col">
+                    <div class="form-group">
+                        <label for="segApe">SEGUNDO APELLIDO</label>
+                        <input type="text" class="form-control" id="segApe" name="segApe" placeholder="Segundo apellido">
+                    </div>
+                   </div>
+                </div>
+                <div class="row">
+                   <div class="col">
+                        <label for="fecha">FECHA DE NACIMIENTO</label>
+                        <input type="date" class="form-control" id="fecha" name="fecha">
+                   </div>
+                   <div class="col">
+                       
+                   </div>
+                </div>
+                <div class="row">
+                    <p>Desea aceptar los <a href="https://www.termsfeed.com/live/9e03f39f-b965-489f-ac19-db2382011ef2">términos y servicios</a></p><input type="checkbox" id="politica">      
+                </div>
+                <div class="row">
+                    <button id="entrar" (click)="creaUsuario()"><span>Crear cuenta</span></button>
+                </div>
+        </div>
+    </div>
+</div>
+
+<!--		Usuarios usu = new Usuarios(nombre, correo, contraseña, primApe, segApe, DNI, fecha, provincia, municipio);
+-->

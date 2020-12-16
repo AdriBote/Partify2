@@ -1,0 +1,17 @@
+.empresa{
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+th{
+    color: whitesmoke;
+    -webkit-text-stroke: 1px orangered;
+}
+td{
+    color:white;
+    -webkit-text-stroke: 0.25px black;
+    width: 500px;
+}
+img{
+    width: 50%;
+    height: 50%;
+}

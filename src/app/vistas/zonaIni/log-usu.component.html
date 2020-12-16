@@ -1,0 +1,30 @@
+<div class="container-fluid">
+    <div class="prin">
+        <div class="container sec">
+            <div class="row">
+                <h3>INICIO DE SESIÓN DE USUARIOS</h3>
+            </div>
+            <!--<form formGroup="formlog" >-->
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="email">CORREO ELECTRÓNICO</label>
+                            <input type="text" style="width: 200%;" class="form-control" id="email" name="email"  placeholder="Direccion de email" required="required">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="contra">CONTRASEÑA </label>
+                            <input type="password" style="width: 200%;"  class="form-control" id="contra" name="contra" placeholder="Contraseña" required="required" >
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <button id="entrar" class="btn" (click)="logUsuario()"><span>Entrar</span></button>
+                </div>
+            <!--</form>-->
+        </div>
+        <br><br>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;Si no tienes cuenta aqui puedes <a [routerLink]="['/home/crear']">crear una cuenta</a></p>
+    </div>
+</div>

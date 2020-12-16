@@ -1,0 +1,14 @@
+.top{
+    background: linear-gradient(#4450af, black);
+    /*background-color:#4450af;*/
+    color: white;
+}
+a{
+    color: white;
+    padding-left: 5%;
+    font-size: 20px;
+}
+.navbar-brand{
+    width: 1000px;
+}
+

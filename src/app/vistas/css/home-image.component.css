@@ -1,0 +1,39 @@
+.inicio{
+    background: linear-gradient(black, #4450af);
+}
+.neon{
+    padding-top: 3%;
+    padding-left: 35%;
+}
+h2{ 
+    color: #ff8000;
+    text-shadow:
+		0 0 5px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+}
+h3{ 
+    color: white;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: orange;
+    text-decoration: none;
+}
+.form-inline{
+    position: absolute;
+    padding-left: 1000px;
+}

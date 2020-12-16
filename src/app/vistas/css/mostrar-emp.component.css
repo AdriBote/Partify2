@@ -1,0 +1,31 @@
+.prin{
+  position: absolute;
+  width: 93.4%;
+  background: linear-gradient(black, #4450af);
+  padding-top: 3%;
+  padding-left: 10%;
+}
+img{
+  border: 2.5px solid orangered;
+}
+h2{
+  color: #1B24DD;
+}
+.datos{
+  border: 2px solid orangered;
+  background-color: white;
+  padding-right: 15%;
+}
+.row{
+  margin-bottom: 3px;
+}
+.gm{
+  border: none;
+  width: 35px;
+  height: 30px;
+  padding-left: 4px;
+}
+.map{
+  padding-left: 25%;
+  padding-top: 5px;
+}

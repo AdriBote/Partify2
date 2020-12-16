@@ -1,0 +1,22 @@
+<div class="container-fluid">
+    <div class="prin">
+        <h2>LOCALES DE OCIO Y BARES</h2>
+        <div class="row pos" *ngFor="let empresa of empre">
+            <empreList [mostrar]="empresa"></empreList>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- <h2>Listado Locales</h2>
+<ul class="empresas">
+    <li *ngFor="let empresa of empre">
+        <p>{{empresa.nif}} </p>{{empresa.nombre}}
+    </li>
+</ul> -->

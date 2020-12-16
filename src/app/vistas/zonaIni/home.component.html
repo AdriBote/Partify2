@@ -1,0 +1,44 @@
+<div class="container-fluid">
+    <div class="top">
+      <div class="row" style="padding-top: 1%;">
+        <div class="col-4">
+          <a href="http://localhost:4200/home/image"><img src="../../../assets/imagenes/Icono.png" width="25%" height="80%"></a>
+        </div>
+        <div class="col-5">
+          <nav class="navbar navbar-expand-lg">
+                      
+            
+            <ul class="navbar-nav " *ngIf="!comprobar(); else registrado">
+              <li class="nav-item active" >
+                <a class="nav-link" href="http://localhost:4200/home/usu">USUARIOS</a>
+              </li>
+              
+            
+              <li class="nav-item">
+                <a class="nav-link" href="http://localhost:4200/home/lEmp">LOCALES</a>
+              </li>
+            </ul>
+            
+            <ng-template #registrado>
+              <ul class="navbar-nav">
+                <li>
+                  <a class="nav-link">Hola {{nombre}}</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" (click)="salir()"> Cerrar sesión</a>
+                </li>
+              </ul>
+            </ng-template>
+            <form class="form-inline">
+              <input class="form-control mr-sm-2" type="search" placeholder="Localidad..." aria-label="Search">
+              <button class="btn btn-outline-light my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          
+        </nav>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <router-outlet></router-outlet>
+    </div>
+</div>
